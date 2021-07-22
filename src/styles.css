@@ -99,12 +99,52 @@ p {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-}
+  h1 {
+    font-size: 40px;
+    margin: 40px 0 25px;
+  }
 
-@media (max-width: 767px) {
   .card-container {
     height: 100%;
     width: 100%;
     flex-direction: column;
+  }
+
+  .sedan-card,
+  .suv-card,
+  .luxury-card {
+    border-radius: 0;
+  }
+
+  .sedan-btn,
+  .suv-btn,
+  .luxury-btn {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 40px;
+    margin: 40px 0 25px;
+  }
+
+  .card-container {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .sedan-card,
+  .suv-card,
+  .luxury-card {
+    border-radius: 0;
+  }
+
+  .sedan-btn,
+  .suv-btn,
+  .luxury-btn {
+    margin-top: 10px;
   }
 }
