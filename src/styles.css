@@ -99,6 +99,10 @@ p {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    margin: 15px;
+  }
+
   h1 {
     font-size: 40px;
     margin: 40px 0 25px;
@@ -110,10 +114,16 @@ p {
     flex-direction: column;
   }
 
-  .sedan-card,
-  .suv-card,
-  .luxury-card {
+  .sedan-card {
+    border-radius: 8px 8px 0 0;
+  }
+
+  .suv-card {
     border-radius: 0;
+  }
+
+  .luxury-card {
+    border-radius: 0 0 8px 8px;
   }
 
   .sedan-btn,
@@ -124,6 +134,10 @@ p {
 }
 
 @media (max-width: 767px) {
+  body {
+    margin: 10px;
+  }
+
   h1 {
     font-size: 40px;
     margin: 40px 0 25px;
@@ -136,10 +150,16 @@ p {
     margin: 0;
   }
 
-  .sedan-card,
-  .suv-card,
-  .luxury-card {
+  .sedan-card {
+    border-radius: 8px 8px 0 0;
+  }
+
+  .suv-card {
     border-radius: 0;
+  }
+
+  .luxury-card {
+    border-radius: 0 0 8px 8px;
   }
 
   .sedan-btn,
